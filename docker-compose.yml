@@ -1,11 +1,10 @@
+version : "3.3"
 services:
   web:
-    image: nginx:latest
+    build : .
     ports:
-      - "80:80"
-    volumes:
-      - ./html:/usr/share/nginx/html
+      - "8001:8000"
   db:
-    image: mysql:latest
-    environment:
-      MYSQL_ROOT_PASSWORD: example_password
+    image: mysql
+    ports:
+      - "3306:3306"
