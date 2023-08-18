@@ -1,4 +1,4 @@
-**node-todo-cicd**
+#node-todo-cicd
 
 sudo apt install nodejs ,
 
@@ -8,7 +8,7 @@ npm install ,
 
 node app.js 
 
-**Automated CICD Pipeline for Node Js web application using AWS, Github Integration and webhook, Docker,Docker-compose and Jenkins.**
+#Automated CICD Pipeline for Node Js web application using AWS, Github Integration and webhook, Docker,Docker-compose and Jenkins.
 
 Generate the SSH keys for integrating  Jenkins project with your git repository. Use ssh-keygen command to create public and private keys in EC2.
 1) Configuring GitHub
@@ -52,7 +52,7 @@ Generate the SSH keys for integrating  Jenkins project with your git repository.
 ![image](https://github.com/pradip2994/jenkins-CICD-main/assets/124191442/9c4cb53f-f729-4959-8832-e550d4346571)
 
 
-**Created a Docker-integrated Jenkins declarative pipeline.**
+#Created a Docker-integrated Jenkins declarative pipeline.
 
 1) Go to jenkins UI
 2) Click on “ New items ”
@@ -72,7 +72,7 @@ Generate the SSH keys for integrating  Jenkins project with your git repository.
 
 
 
-**Created Jenkins agent and deployed Django web application through Jenkins Master server to Jenkins agent.**
+#Created Jenkins agent and deployed Django web application through Jenkins Master server to Jenkins agent.
 
 1) Create 2 EC2 instances for master and agent
 2) Generate SSH keys on “Jenkins-master” EC2 instance
