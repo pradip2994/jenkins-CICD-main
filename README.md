@@ -1,12 +1,12 @@
 **node-todo-cicd**
 
-sudo apt install nodejs
+sudo apt install nodejs ,
 
-sudo apt install npm
+sudo apt install npm ,
 
-npm install
+npm install ,
 
-node app.js
+node app.js 
 
 **Automated CICD Pipeline for Node Js web application using AWS, Github Integration and webhook, Docker,Docker-compose and Jenkins.**
 
